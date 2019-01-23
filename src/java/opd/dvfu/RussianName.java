@@ -1,11 +1,12 @@
 package opd.dvfu;
 
 public class RussianName {
-    public final String Name, Surname, Patronymic;
+    public final String name, patronymic, surname;
 
-    public RussianName(final String name, final String sur, final String pat) {
-        Name = name;
-        Surname = sur;
-        Patronymic = pat;
+    // Имя Отчество Фамилия (Иван Иванович Иванов)
+    public RussianName(final String name, final String patronymic, final String surname) {
+        this.name = name;
+        this.patronymic = patronymic;
+        this.surname = surname;
     }
 }
