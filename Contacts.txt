@@ -5,8 +5,7 @@
 	Post: "Ректор Воображаемого Университета"
 	Phone: "8-914-000-00-00"
 	Email: "ivan_ivanovich@example.com"
-}
-{
+} {
 	Name: "Иван2"
 	Patronymic: "Иванович2"
 	Surname: "Иванов2"
