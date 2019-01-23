@@ -1,5 +1,7 @@
 package opd.dvfu;
 
+import android.support.annotation.NonNull;
+
 public class Contact {
     public final RussianName fullName;
     public final String post, phone, email, place;
@@ -9,8 +11,8 @@ public class Contact {
         return getClass() == other.getClass() && post == ((Contact)other).post;
     }
 
-    public Contact(final RussianName name,
-                   final String post,
+    public Contact(@NonNull final RussianName name,
+                   @NonNull final String post,
                    final String phone,
                    final String email,
                    final String place) {
