@@ -3,7 +3,7 @@ package opd.dvfu;
 import android.support.annotation.NonNull;
 
 public class Contact {
-    public final RussianName fullName;
+    public final Name name;
     public final String post, phone, email, place;
 
     @Override
@@ -11,13 +11,13 @@ public class Contact {
         return getClass() == other.getClass() && post == ((Contact)other).post;
     }
 
-    public Contact(@NonNull final RussianName name,
+    public Contact(@NonNull final Name name,
                    @NonNull final String post,
                    final String phone,
                    final String email,
                    final String place) {
         this.post = post;
-        this.fullName = name;
+        this.name = name;
         this.phone = phone;
         this.email = email;
         this.place = place;
