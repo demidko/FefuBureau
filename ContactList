@@ -1,19 +1,11 @@
 {
-	RussianName {
-		Name: "Иван"
-		Patronymic: "Иванович"
-		Surname: "Иванов"	
-	}
+	Name: "Иван Иванович Иванов"	
 	Post: "Ректор Воображаемого Университета"
-	Phone: "8-914-000-00-00"
+	Phone: "8-914-038-10-15"
 	Email: "ivan_ivanovich@example.com"
 } {
-        RussianName {
-		Name: "Пётр"
-		Patronymic: "Васильевич"
-		Surname: "Сидров"
-	}
+        Name: "Пётр Васильевич Сидров"
 	Post: "Тестер"
-	Phone: "8-914-000-00-05"
-	Email: "ivan_ivanovich@example1.com"
+	Phone: "8-924-458-70-05"
+	Email: "vf_vasya@example1.com"
 }
